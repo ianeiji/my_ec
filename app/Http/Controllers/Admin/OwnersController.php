@@ -86,7 +86,7 @@ class OwnersController extends Controller
 
         return redirect()
         ->route('admin.owners.index')
-        ->with('success','オーナー情報を更新しました。');
+        ->with('success','オーナー情報を更新しました');
     }
 
     /**
